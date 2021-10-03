@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Luckiest Guy", cursive;
+}
+html,
+body {
+  height: 100%; /*keeps everything at the top */
+}
+h1,
+h2 {
+  /* content at center */
+  text-align: center;
+  font-size: 2em;
+}
+h1 {
+  letter-spacing: 2px;
+  font-size: 3.5em;
+}
+h2 {
+  letter-spacing: 1px;
+}
+p {
+  text-align: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  /* content at center of the page */
+  justify-content: center;
+  background: url("https://imgur.com/moXPrxh.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+body::before {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
