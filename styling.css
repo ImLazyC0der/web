@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cat</title>
+    <style type="text/css" media="screen">
+     div {
+       float: left;
+       width: 49%;
+       height: 100px;
+       border: solid red 1px;
+     }
+
+     button {
+       float: left;
+       clear: both;
+     }
+    </style>
+  </head>
+  <body>
+    <h1>My Cat Bob</h1>
+    <p>My cat is named Bob. He is a lazy cat.</p>
+  </body>
+</html>
